@@ -1,7 +1,7 @@
 package com.sky.rewards.internal;
 
 import com.sky.rewards.api.RewardsService;
-import com.sky.eligability.api.EligibilityService;
+import com.sky.eligibility.api.EligibilityService;
 
 public class RewardsServiceImpl implements RewardsService {
 	EligibilityService eligibilityService;

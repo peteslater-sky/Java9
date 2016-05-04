@@ -2,7 +2,7 @@ package com.sky.rewards;
 
 import com.sky.rewards.api.RewardsService;
 import com.sky.rewards.internal.RewardsServiceImpl;
-import com.sky.eligability.internal.EligibilityServiceImpl;
+import com.sky.eligibility.internal.EligibilityServiceImpl;
 
 public class Main {
 	public static void main(String[] args) {

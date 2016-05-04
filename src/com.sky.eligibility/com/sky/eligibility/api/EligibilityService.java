@@ -1,5 +1,5 @@
 package com.sky.eligibility.api;
 
 public interface EligibilityService {
-	public boolean isEligable(int accountNumber);
+	public boolean isEligible(int accountNumber);
 }

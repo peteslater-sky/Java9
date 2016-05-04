@@ -1,17 +1,17 @@
 package com.sky.rewards.internal;
 
 import com.sky.rewards.api.RewardsService;
-import com.sky.eligability.api.EligabilityService;
+import com.sky.eligability.api.EligibilityService;
 
 public class RewardsServiceImpl implements RewardsService {
-	EligabilityService eligabilityService;
+	EligibilityService eligibilityService;
 
-	public RewardsServiceImpl(EligabilityService eligabilityService) {
-		this.eligabilityService = eligabilityService;
+	public RewardsServiceImpl(EligibilityService eligibilityService) {
+		this.eligibilityService = eligibilityService;
 	}
 
 	public void getRewards(int accountNumber) {
-		if(eligabilityService.isEligable(accountNumber)) {
+		if(eligibilityService.isEligible(accountNumber)) {
 			System.out.println("I can haz rewards?");
 		}
 		else {
